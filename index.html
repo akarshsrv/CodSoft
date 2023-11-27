@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script defer src="app.js"></script>
+  <title>To-Do List</title>
+</head>
+<body>
+
+  <div class="container">
+    <h2>To-Do List</h2>
+
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="taskList"></ul>
+
+    <div class="actions">
+      <button onclick="deleteSelectedTask()">Delete Selected Task</button>
+      <button onclick="modifySelectedTask()">Modify Selected Task</button>
+      <button onclick="saveTasks()">Save Tasks</button>
+    </div>
+  </div>
+
+</body>
+</html>

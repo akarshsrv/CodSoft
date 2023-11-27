@@ -1,0 +1,45 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .container {
+    width: 300px;
+  }
+  
+  #taskInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .task button {
+    cursor: pointer;
+  }
+  
+  .actions {
+    margin-top: 10px;
+  }
+  
+  .actions button {
+    margin-right: 5px;
+  }
+  
